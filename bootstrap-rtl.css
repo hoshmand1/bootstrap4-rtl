@@ -831,7 +831,7 @@ dl.row > dd + dt {
 }
 
 .form-check-input {
-    margin-right: -1.25rem;
+    margin-right: 0;
 }
 
 .form-check-inline {
