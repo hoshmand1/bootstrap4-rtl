@@ -826,21 +826,23 @@ dl.row > dd + dt {
     }
 }
 
-.form-check-label {
+.form-check {
+    padding-left: 0;
     padding-right: 1.25rem;
 }
-
 .form-check-input {
     margin-right: -1.25rem;
+    margin-left: 0;
 }
-
 .form-check-inline {
-    padding-right: 1.25rem;
+	padding-right: 0;
+    margin-right: 0;
+    margin-left: .75rem;
 }
-
-    .form-check-inline + .form-check-inline {
-        margin-right: .75rem;
-    }
+.form-check-inline .form-check-input{
+	margin-right: 0;
+    margin-left: .3125rem;
+}
 
 .form-control-feedback {
     margin-top: 0.25rem;
